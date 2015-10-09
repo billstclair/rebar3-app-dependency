@@ -71,7 +71,7 @@ $ ./rebar3 compile
 ```
 
 Note that the dependencies changed the order of compilation of the
-sub-applications, but since the rebar3-related-app-test application
+sub-applications, but since the `rebar3-related-app-test` application
 depends on none of the sub-applications, it is compiled in a random
 place relative to them.
 
