@@ -1,0 +1,17 @@
+{application, 'app42',
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {'app42_app', []}},
+  {applications,
+   [kernel,
+    stdlib,
+    app21
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.

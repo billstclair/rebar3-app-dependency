@@ -1,0 +1,17 @@
+{application, 'rebar3-app-test',
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {'rebar3-app-test_app', []}},
+  {applications,
+   [kernel,
+    stdlib,
+    app13, app21, app34, app42
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
