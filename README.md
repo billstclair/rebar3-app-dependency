@@ -5,7 +5,8 @@ This directory has two sub-directories, each of which is a trivial
 Erlang application with four sub-applications. I made it to illustrate
 how the order of compilation for
 [rebar3](https://github.com/rebar/rebar3) depends on dependencies in
-the .app.src files, but _not_ on their
+the .app.src files, but _not_ on their order in any application that
+depends on them.
 
 `rebar3-app-test` has the following `.app.src` file:
 
