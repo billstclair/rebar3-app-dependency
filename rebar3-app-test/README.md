@@ -18,7 +18,7 @@ order:
   {applications,
    [kernel,
     stdlib,
-    app13, app21, app34, app42
+    app21, app13, app42, app34
    ]},
   ...
  ]}.
