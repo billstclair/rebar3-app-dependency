@@ -17,6 +17,7 @@ depends on dependencies in the .app.src files, but _not_ on their
     app13, app21, app34, app42
    ]},
  ]}.
+```
 
 The four sub-apps each include only `kernel` and `stdlib` in their
 `applications` list. The build looks like this:
@@ -31,6 +32,9 @@ $ ./rebar3 compile
 ===> Compiling app13
 ===> Compiling rebar3-app-test
 ```
+
+Note that the compile order does _not_ match the order in the
+`.app.src` file.
 
 `rebar-related-app-test` has the following `.app.src` file:
 
