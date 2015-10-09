@@ -46,6 +46,7 @@ Note that the compile order does _not_ match the order in the
     stdlib
    ]},
  ]}.
+```
 
 Its four sub-applications depend on each other in a chain, where
 `a->b` means that `a` has `b` in the `applications` list in its
