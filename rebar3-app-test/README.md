@@ -13,10 +13,15 @@ In "rebar 3.0.0-beta.3+build.3079.ref2754214 in OTP r16b03, 17.5, and
 order:
 
 ```
-app13,
-app21,
-app34,
-app42
+{application, 'rebar3-app-test',
+ [...
+  {applications,
+   [kernel,
+    stdlib,
+    app13, app21, app34, app42
+   ]},
+  ...
+ ]}.
 ```
 
 here's the build output:
